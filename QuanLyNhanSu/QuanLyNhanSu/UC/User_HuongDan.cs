@@ -19,6 +19,5 @@ namespace QuanLyNhanSu
             webBrowser1.Navigate(@"C:\Users\namtv1996\Desktop\Thuc Tap Nhom\Thuc Tap Nhom - Quan Ly Nhan Su\QuanLyNhanSu\QuanLyNhanSu\Resources\HuongDan.htm");
         }
         
-
     }
 }
