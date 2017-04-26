@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Data;
 using System.Linq;
 using System.Windows.Forms;
@@ -28,6 +29,7 @@ namespace QuanLyNhanSu.UC
         // BUTTON REFRESH
         private void BtnRefresh_Click(object sender, EventArgs e)
         {
+            
             RefreshControls();
             LockControls();
             using (QLNhanSuDbContext db = new QLNhanSuDbContext())
@@ -298,6 +300,11 @@ namespace QuanLyNhanSu.UC
         #endregion
 
         private void txtSearch_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dtpDOB_ValueChanged(object sender, EventArgs e)
         {
 
         }

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.SuspendLayout();
             // 
             // webBrowser1
@@ -39,6 +40,7 @@
             this.webBrowser1.Name = "webBrowser1";
             this.webBrowser1.Size = new System.Drawing.Size(615, 497);
             this.webBrowser1.TabIndex = 0;
+            this.webBrowser1.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webBrowser1_DocumentCompleted);
             // 
             // User_HuongDan
             // 
@@ -47,7 +49,6 @@
             this.Controls.Add(this.webBrowser1);
             this.Name = "User_HuongDan";
             this.Size = new System.Drawing.Size(615, 497);
-    
             this.ResumeLayout(false);
 
         }
@@ -55,5 +56,6 @@
         #endregion
 
         private System.Windows.Forms.WebBrowser webBrowser1;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }

@@ -70,7 +70,7 @@
             this.Controls.Add(this.tre);
             this.Name = "Form_Main";
             this.Text = "Quản Lý Nhân Sự";
-            //this.Load += new System.EventHandler(this.Form1_Load_1);
+            this.Load += new System.EventHandler(this.Form_Main_Load);
             this.ResumeLayout(false);
 
         }

@@ -38,5 +38,10 @@ namespace QuanLyNhanSu
                 showcontrol(per);
             }
         }
+
+        private void Form_Main_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -18,6 +18,10 @@ namespace QuanLyNhanSu
             InitializeComponent();
             webBrowser1.Navigate(@"C:\Users\namtv1996\Desktop\Thuc Tap Nhom\Thuc Tap Nhom - Quan Ly Nhan Su\QuanLyNhanSu\QuanLyNhanSu\Resources\HuongDan.htm");
         }
-        
+
+        private void webBrowser1_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
+        {
+
+        }
     }
 }
